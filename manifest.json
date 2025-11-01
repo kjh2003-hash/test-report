@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "My Test Extension",
+  "version": "1.0",
+  "description": "Test extension for Chrome/Edge",
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "plants-people.png"
+  },
+  "background": {
+    "service_worker": "index.js"
+  },
+  "content_scripts": []
+}
